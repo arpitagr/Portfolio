@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^arpitagrawal\.bookbazaar\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.arpitagrawal\.bookbazaar\.net$
+RewriteRule ^/?$ "http\:\/\/bookbazaar\.net\/arpitagrawal" [R=301,L]
+
